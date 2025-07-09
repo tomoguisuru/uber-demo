@@ -60,6 +60,13 @@ npm i mongoose @nestjs/mongoose
 
 - [MongoDB Compass](https://www.mongodb.com/try/download/compass)
 
+- Class Validation
+  - [class-transformer](https://github.com/typestack/class-transformer?tab=readme-ov-file#installation)
+  - [class-validator](https://github.com/typestack/class-validator?tab=readme-ov-file#installation)
+
+```bash
+npm i class-transformer class-validator reflect-metadata
+```
 
 # Create new Logging Module
 

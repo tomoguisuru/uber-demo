@@ -7,3 +7,23 @@ GET http://localhost:3002
 
 ### GET
 GET http://localhost:3002/rider-coordinates
+
+
+### Create coordinates (success)
+POST http://localhost:3002/rider-coordinates
+Content-Type: application/json
+
+{
+  "lat": 123.33,
+  "lng": 233.44,
+  "riderId": "asdf1234_dummy"
+}
+
+### Create coordinates (error)
+POST http://localhost:3002/rider-coordinates
+Content-Type: application/json
+
+{
+  "lng": 233.44,
+  "riderId": "asdf1234_dummy"
+}
