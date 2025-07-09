@@ -1,0 +1,9 @@
+
+# Logging
+
+### GET
+GET http://localhost:3002
+
+
+### GET
+GET http://localhost:3002/rider-coordinates
