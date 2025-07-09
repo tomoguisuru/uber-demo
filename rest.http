@@ -14,8 +14,8 @@ POST http://localhost:3002/rider-coordinates
 Content-Type: application/json
 
 {
-  "lat": 123.33,
-  "lng": 233.44,
+  "lat": 777.33,
+  "lng": 777.44,
   "riderId": "asdf1234_dummy"
 }
 

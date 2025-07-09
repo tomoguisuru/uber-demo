@@ -64,8 +64,11 @@ npm i mongoose @nestjs/mongoose
   - [class-transformer](https://github.com/typestack/class-transformer?tab=readme-ov-file#installation)
   - [class-validator](https://github.com/typestack/class-validator?tab=readme-ov-file#installation)
 
+- NestJS Config
+
+
 ```bash
-npm i class-transformer class-validator reflect-metadata
+npm i class-transformer class-validator reflect-metadata @nestjs/config
 ```
 
 # Create new Logging Module
